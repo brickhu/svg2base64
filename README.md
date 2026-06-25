@@ -5,11 +5,11 @@ SVG ↔ Base64 DataURI bidirectional conversion — a Claude Code skill.
 ## Installation
 
 ```bash
-# via GitHub
-/skill https://github.com/brickhu/svg2base64
+# claude code
+claude skill add github:brickhu/svg2base64
 
-# via npm
-npx skill svg2base64 install
+# other way:
+npx agent-skill-manager install brickhu/svg2base64
 ```
 
 ## Usage
