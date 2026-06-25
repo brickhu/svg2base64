@@ -1,0 +1,30 @@
+{
+  "name": "svg2base64",
+  "version": "1.0.0",
+  "description": "AI agent skill — SVG ↔ Base64 DataURI bidirectional conversion",
+  "keywords": [
+    "claude-code-skill",
+    "claude-skill",
+    "svg",
+    "base64",
+    "datauri"
+  ],
+  "license": "MIT",
+  "author": "fei",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brickhu/svg2base64"
+  },
+  "skill": {
+    "type": "claude-skill",
+    "label": "svg-to-base64"
+  },
+  "files": [
+    "SKILL.md",
+    "references/",
+    "scripts/"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
